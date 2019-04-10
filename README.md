@@ -2,11 +2,11 @@
 
 #Command to run cuda programm from terminal
 
-#on Windows
+#on Windows ->
 $nvcc -o programm.o programm.cu
 $programm.exe
 
-#on Linux
+#on Linux ->
 $nvcc programm.cu
 $./a.out
 
