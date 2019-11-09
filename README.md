@@ -1,12 +1,15 @@
 # CUDA_programming
 
-#Command to run cuda programm from terminal
+**Command to run cuda programm from terminal
 
-on Windows ->
+**On Windows ->**
+```
 $nvcc -o programm.o programm.cu
 $programm.exe
-
-on Linux ->
+```
+</br>
+**On Linux ->**
+```
 $nvcc programm.cu
 $./a.out
-
+```
